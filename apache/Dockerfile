@@ -1,4 +1,4 @@
-FROM php:8.1.10-apache
+FROM php:8.1.10-cli
 MAINTAINER Michael A. Smith <msmith3@ebay.com>
 COPY magento.conf /etc/apache2/sites-available/magento.conf
 COPY xdebug-enabler.ini /etc/php5/mods-available/
